@@ -1,25 +1,23 @@
 # Solar-Panel-Failure-Prediction-Model
-A machine learning model to predict failures in solar panels based on performance and environmental data. Improves maintenance efficiency and optimizes energy generation.
+Business Problem Statement: A company is facing issue to predict that solar panel is faulty or not, as it has millions of panels so to ease the prediction, they hire a Data Scientist who will build a Machine Learning Algorithm so that they can easily predict it is faulty or not within a short interval time and will reduce human labour too.
+Business Objective:  Maximize the efficiency of Solar panel
+Business Constraint: Minimize human labour
+CRISP-ML(Q) Methodology is used:   
+1)	Business Understanding
+2)	Data Understanding
+3)	Data Preparation
+4)	Modeling
+5)	Evaluation
+6)	Deployment
 
-This project aims to develop a solar panel failure prediction model using machine learning techniques. The model will predict the likelihood of failure for solar panels based on various input features, allowing for proactive maintenance and improved performance of solar energy systems.
-
-Description: Solar energy is an increasingly popular and sustainable source of power. However, like any other technology, solar panels are subject to failures and performance degradation over time. Timely identification of potential failures can significantly reduce downtime and maintenance costs, ensuring optimal energy generation.
-This project focuses on building a predictive model to detect potential failures in solar panels. By utilizing historical data on solar panel performance and failure instances, along with relevant environmental and operational factors, the model aims to predict the probability of failure for individual solar panels. This information can assist in scheduling maintenance activities, optimizing resource allocation, and improving overall system efficiency.
-
-Key Steps:
-
-Data Collection: Gather data on solar panel performance, environmental conditions, maintenance records, and failure instances. This dataset will serve as the basis for training and evaluating the predictive model.
-
-Data Preprocessing: Clean the dataset, handle missing values, and perform feature engineering. This step involves transforming raw data into a format suitable for model training.
-
-Feature Selection: Identify the most relevant features that contribute to solar panel failure prediction. Feature selection techniques can help improve model performance and reduce complexity.
-
-Model Training: Utilize various machine learning algorithms, such as logistic regression, decision trees, random forests, or gradient boosting, to train the prediction model on the labeled dataset. This involves splitting the data into training and testing sets, tuning hyperparameters, and evaluating model performance.
-
-Model Evaluation: Assess the performance of the trained model using appropriate evaluation metrics such as accuracy, precision, recall, and F1-score. Cross-validation techniques can provide robust estimates of model performance.
-
-Deployment: Once the model is deemed satisfactory, deploy it in a production environment. This step involves integrating the prediction model into an application or system that can make real-time predictions on new data.
-
-Monitoring and Maintenance: Continuously monitor the model's performance and update it periodically with new data. Regular maintenance ensures that the model remains accurate and effective in predicting solar panel failures.
-
-The Solar Panel Failure Prediction Model project aims to enhance the efficiency and reliability of solar energy systems by proactively identifying potential failures. By minimizing downtime and optimizing maintenance efforts, this model contributes to the sustainable utilization of solar power and improves the overall performance of solar panel installations.
+Data Collection: The dataset is collected from a verified web source. It consists of 15 columns with millions of records.
+Data Preparation: The data is sampled as it has millions of records and balanced it.
+		     EDA and Visualization is done on the data for better understanding of data. 
+		     The data is cleaned by using various pre-processing techniques.
+		     Splitting the cleaned data into two sets - a training set and a testing set.
+Model Building: The model is built on Supervised Machine Learning Algorithm.
+Model Training: The prepared data is passed to the model to find patterns and make predictions.
+Parameter Tuning: To improve the accuracy of model it is done.
+Model Evaluation: To understand a performance of model by using different evaluation metrics.
+Model Selection: The best fit model is selected by comparing the metrics of different models.
+Deployment: The model is saved and deployment is done so that it is use in practical decision-making.
