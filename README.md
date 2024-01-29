@@ -7,7 +7,7 @@ The project follows the CRISP-ML(Q) methodology:
 Business Understanding: Clearly defining the problem and business objectives.
 
 Data Understanding: Collection of a dataset from a verified web source with extensive records.
-The dataset used in this project is sourced from a reliable web platform and comprises millions of records with 15 columns.
+  The dataset used in this project is sourced from a reliable web platform and comprises millions of records with 15 columns.
 
 Data Preparation: Sampling and balancing of data.
 Exploratory Data Analysis (EDA) and visualization for better understanding.
