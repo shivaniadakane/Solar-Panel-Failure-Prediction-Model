@@ -18,26 +18,26 @@ Evaluation: Assessment of model performance using diverse metrics.
 
 Deployment: Saving and deploying the model for practical decision-making.
 
-Data Collection
+Data Collection: 
 The dataset used in this project is sourced from a reliable web platform and comprises millions of records with 15 columns.
 
-Data Preparation
+Data Preparation: 
 The data preparation phase involves several steps, including sampling, balancing, EDA, visualization, and cleaning using various pre-processing techniques. The final dataset is then split into training and testing sets.
 
-Model Building
+Model Building: 
 The predictive model is constructed using a Supervised Machine Learning Algorithm.
 
-Model Training
+Model Training: 
 The model is trained using the prepared dataset to identify patterns and make accurate predictions.
 
-Parameter Tuning
+Parameter Tuning: 
 Fine-tuning of model parameters is conducted to enhance prediction accuracy.
 
-Model Evaluation
+Model Evaluation: 
 Different evaluation metrics are utilized to comprehensively understand the model's performance.
 
-Model Selection
+Model Selection: 
 The most suitable model is chosen based on a comparison of metrics across different models.
 
-Deployment
+Deployment: 
 The final model is saved and deployed to enable practical decision-making.
